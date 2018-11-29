@@ -1,13 +1,15 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import './style.css';
 
 const WeatherExtraInfo = ({humidity, wind}) => {
-	var jsx = 	<div>
-					<span>
-							{`${humidity} % - `}
+	var jsx = 	
+				<div className = 'weatherExtraInfoCont'>
+					<span id = 'humidityCont'>
+							{`humedad: ${humidity} %.`}
 					</span>
-					<span>
-							{`${wind} wind`}
+					<span id = 'windCont'>
+							{`viento: ${wind} wind.`}
 					</span>
 			   	</div>;
 	return jsx;

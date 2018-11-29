@@ -1,7 +1,8 @@
 import React from 'react';
+import './style.css';
 
 const Location = ({city}) => (
-	<div>
+	<div id = 'locationCont'>
 		<h1>
 			<strong>
 					<i>

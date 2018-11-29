@@ -1,0 +1,20 @@
+.weatherLocationCont {
+	width: 800px;
+	padding: 50px;
+	color: #E4FAF3;
+	font-family: 'Lato', sans-serif;
+	border-radius: 10px 10px 10px 10px;
+	-moz-border-radius: 10px 10px 10px 10px;
+	-webkit-border-radius: 10px 10px 10px 10px;
+	border: 2px solid #180d0d;
+	-webkit-box-shadow: 10px 10px 26px 3px rgba(24,13,13,1);
+	-moz-box-shadow: 10px 10px 26px 3px rgba(24,13,13,1);
+	box-shadow: 10px 10px 26px 3px rgba(24,13,13,1);
+}
+
+#locationCont {
+	width: 100%;
+	text-align: left;
+	line-height: 25%;
+	padding-bottom: 30px;
+}

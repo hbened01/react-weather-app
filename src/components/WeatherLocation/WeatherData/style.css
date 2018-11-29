@@ -1,0 +1,49 @@
+.weatherDataCont {
+	width: 800px;
+}
+
+.weatherTemperatureCont {
+	width: 60%;
+	height: 50%;
+	text-align: left;
+	line-height: 28px;
+	display: inline-block;
+}
+
+.weatherExtraInfoCont {
+	width: 40%;
+	height: 50%;
+	text-align: left;
+	line-height: 28px;
+	display: inline-block;
+}
+
+#iconCont {
+	color: #3600E7;
+}
+
+#humidityCont {
+	font-size: 20px;
+	font-weight: bold;
+	display: block;
+	color: #F2D464;
+}
+
+#windCont {
+	font-size: 20px;
+	font-weight: bold;
+	display: block;
+	color: #36C6E7;
+}
+
+#temperatureGradeCont {
+	color: #00FF00;
+	padding-left: 5%;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+#temperatureTypeCont {
+	color: #00FF00;
+	font-size: 30px;
+}

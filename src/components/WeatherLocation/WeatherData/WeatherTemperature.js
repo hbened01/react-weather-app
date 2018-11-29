@@ -10,6 +10,7 @@ import {
 	SNOW,
 	WINDY
 } from './../../../constants/weathers.js';
+import './style.css';
 
 // Se crea diccionario:
 const icons = {
@@ -24,23 +25,25 @@ const icons = {
 
 const getWeatherIcon = weatherState => {
 	const icon = icons[weatherState];
+	const sizeIcon = '4x';
 	if (icon)
-		return <WeatherIcons name = {icon} size = '2x'/>;
+		return <WeatherIcons id = 'iconCont' name = {icon} size = {sizeIcon}/>;
 	else
-		return <WeatherIcons name = 'day-sunny' size = '2x'/>;
+		return <WeatherIcons id = 'iconCont' name = 'day-sunny' size = {sizeIcon}/>;
 };
 
 const WeatherTemperature = ({temperature, weatherState}) => ( 
-	<div>
+	<div className = 'weatherTemperatureCont'>
 		<span>
 				{
 					getWeatherIcon(weatherState)	
 				}
 		</span>
-		<span>
-				{
-					`${temperature} C°`
-				} 
+		<span id = 'temperatureGradeCont'>
+				{`${temperature}`}
+		</span>
+		<span id = 'temperatureTypeCont'>
+				{` C°`}
 		</span>
 	</div>
 );
