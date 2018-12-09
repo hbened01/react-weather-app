@@ -12,7 +12,7 @@ class App extends Component {
           </p>
         </header>
         <header className="App-msg2">
-          <div className="App-title"><WeatherLocation></WeatherLocation></div>
+          <div className="App-title"><WeatherLocation city='Buenos Aires, Ar'></WeatherLocation></div>
         </header>
       </div>
     );
