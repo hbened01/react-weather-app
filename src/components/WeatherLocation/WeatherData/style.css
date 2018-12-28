@@ -1,5 +1,7 @@
 .weatherDataCont {
-	width: 800px;
+	width: 100%;
+	padding: 1%;
+	box-sizing: border-box;
 }
 
 .weatherTemperatureCont {

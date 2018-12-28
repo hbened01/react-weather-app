@@ -9,7 +9,7 @@ const WeatherExtraInfo = ({humidity, wind}) => {
 							{`humedad: ${humidity} %.`}
 					</span>
 					<span id = 'windCont'>
-							{`viento: ${wind} wind.`}
+							{`viento: ${wind}.`}
 					</span>
 			   	</div>;
 	return jsx;

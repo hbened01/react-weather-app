@@ -1,7 +1,10 @@
 .weatherLocationCont {
-	width: 800px;
-	padding: 50px;
+	width: calc(100%-20px);
+	box-sizing: border-box;
+	padding: 5%;
+	margin-bottom: 5%;
 	color: #E4FAF3;
+	background: #4d4f54; 
 	font-family: 'Lato', sans-serif;
 	border-radius: 10px 10px 10px 10px;
 	-moz-border-radius: 10px 10px 10px 10px;
@@ -17,4 +20,6 @@
 	text-align: left;
 	line-height: 25%;
 	padding-bottom: 30px;
+	overflow: hidden;
+	white-space: nowrap;
 }
