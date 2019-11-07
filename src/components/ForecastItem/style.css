@@ -1,0 +1,20 @@
+.forecast-cont {
+    background-color: #4F4F55;
+    margin-bottom: 3%;
+    margin-left: 3%;
+    margin-right: 3%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+    border: 2px solid #180d0d;
+    box-shadow: 10px 10px 26px 1px rgba(24,13,13,1);
+}
+
+.data-hour-cont {
+    margin-top: -2%;
+    padding-bottom: 2%;
+}
